@@ -1,0 +1,27 @@
+html, body {
+  width: 100%;
+  background-color: #1c1c1c;
+}
+
+.deck {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img#deck {
+  width: 450px;
+}
+
+img#deck:hover {
+  width: 500px;
+  cursor: pointer;
+}
+
+#hidden {
+  display: none;
+  width: 700px;
+  margin: auto;
+  margin-top: 650px;
+}
